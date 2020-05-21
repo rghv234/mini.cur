@@ -1,0 +1,58 @@
+ mini.cur
+; Right click on the file "Install.inf" and select "Install". Then in the Mouse control panel apply mini.cur.
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%person%,%10%\%CUR_DIR%\%pin%"
+
+; -- Installed files
+
+[Scheme.Cur]
+mini.cur
+mini text.cur
+busy.ani
+mini horizontal.cur
+help.cur
+link.cur
+mini move.cur
+mini slant 2.cur
+mini vertical.cur
+mini slant 1.cur
+mini handwrite.cur
+mini precise.cur
+mini unavailable.cur
+mini al.cur
+working in background.ani
+person.cur
+location.cur
+
+[Strings]
+CUR_DIR       = "Cursors\minicur"
+SCHEME_NAME   = "mini.cur"
+pointer       = "mini.cur"
+help          = "help.cur"
+work          = "working in background.ani"
+busy          = "busy.ani"
+text          = "mini text.cur"
+unavailiable  = "mini unavailable.cur"
+vert          = "mini vertical.cur"
+horz          = "mini horizontal.cur"
+dgn1          = "mini slant 1.cur"
+dgn2          = "mini slant 2.cur"
+move          = "mini move.cur"
+link          = "link.cur"
+cross         = "mini precise.cur"
+hand          = "mini handwrite.cur"
+alternate     = "mini al.cur"
+person        = "person.cur"
+pin           = "location.cur"
