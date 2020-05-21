@@ -2,7 +2,7 @@
  A small cursor set for Windows
 
 # Instructions to Install :
-Manual Method
+# Manual Method
 
 1. Open Control Panel
 2. Choose Hardware and Sound
@@ -15,7 +15,7 @@ Manual Method
 9. Click 'Apply' and then 'OK'
 
        OR
-Automatic Method
+# Automatic Method
 
 1. Select 'Install.inf' file
 2. Right-Click and click 'Install'
@@ -24,6 +24,6 @@ Automatic Method
 5. In the Scheme section click on dropdown menu and select mini.cur
 6. Click 'Apply' and then click 'OK'
 
-Enjoy your mini.cur! :)
+
  	 
 
