@@ -2,6 +2,7 @@
  A small cursor set for Windows
 
 # Instructions to Install :
+Clone or Download file first
 # Manual Method
 
 1. Open Control Panel
