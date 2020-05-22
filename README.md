@@ -1,6 +1,8 @@
 # mini.cur
  A small cursor set for Windows
 
+![Preview](https://raw.githubusercontent.com/rghv234/mini.cur/master/Size%20Compared%20to%20a%20Folder.JPG)
+
 # Instructions to Install :
 Clone or Download file first
 # Manual Method
